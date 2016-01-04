@@ -1,0 +1,167 @@
+<pre>
+<html>
+<head>
+<link rel="stylesheet" href="Notes.css">
+</head>
+<!--Here is the styling section for the body that I will type below-->
+
+<!--Below is the body section that the styling is applied on-->
+
+
+<body background="/Users/odaybrahem/Desktop/4815430177_1036262ff1_z.jpg"> 
+	<a name="top">
+	<p> </p><br><br><br><br>
+
+
+	</a>
+<div class="topMenu">
+	<div class="headerContainer">
+		<div class="header"> 
+			<img src="https://pbs.twimg.com/media/BrhrOz4CMAA56BG.jpg" style="width: 100%; height: 10%;"> 
+			<a href="#top" style="text-decoration:none">
+			<div class="title">
+				<b>Important Concepts in Programming</b>
+			</div>
+			</a>
+			<img src="https://pbs.twimg.com/media/BrhrOz4CMAA56BG.jpg" style="width: 100%; height: 10%; position">
+		</div>
+		<nav class="toc-wrapped">
+			<ul><li><a href="#">Table of Contents</a>
+				<ul>
+	            <li><a href="#top">Basics of Web and HTML</a></li>
+	            <li><a href="#CSDH">Structured Documents</a></li>
+	            <li><a href="#TLS">HTML and CSS</a></li>
+	            <li><a href="#PP">Python Programming</a></li>
+	            </ul>
+	            <li><a href="#">HTML Source Code</a></li>
+	           	<li><a href="#">CSS Source Code</a></li>
+
+        	</ul></ul>
+        </nav>
+	</div>
+</div>
+<div class="content"
+<!--1____________________-->
+	 <h2>1:The Basics of Web and HTML</h2>
+<!--1_1___________________-->
+			
+	 		
+<!--1_1______A--><p><b>*How the Web Works</b></p>
+				<p>
+	 				The Web is a system of communication between your computer and server computers that enables your computer to access html documents that are interconnected through hyperlinks, or the web. <br>In order to access these html documents your computer's web browser will need to send in a request to the servers(HTTP request.) <br> The servers send your computer back an HTML document that your browser can then interpret into what you see as a webpage on your display.
+	 				<a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">This video </a> hosted by Udacity does a good job of explaining more...
+	 			</p>
+	 		
+<!--1_1______B--><p><b>*HTML Documents</b></p>
+				<p>
+	 				<em>HyperText Markup Language (HTTP)</em> Consist of:
+	 				<ul>
+	 					<li>Text Content, <em>What you see?</em></li>
+	 					<li>Markup, <em>What it looks like</em></li>
+	 					<li>References to imgs, vds... <em>hyperlinks</em></li>
+	 					<li>Other documents</li>
+	 				</ul>
+	 				<br>
+	 				<a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340"> This video</a> explains things more...
+	 			</p>	
+<!--1_1______C--><p><b>*Tags and Elements</b></p>
+	 				<p>HTML contains elements and tags. Tags around elements or before them defines what type of element and what features our element has.</p>
+<!--1_1______D--><p><b>*Computers don't think they just do.</b></p>
+	 				<p>Computers will take instructions given by the user literally and will obey only the instructions it is programmed to inrepret. Therefore, make sure syntax is correct as it protects your project from the computer's limitations.</p>
+<!--1_1______E--><p>*Inline vs Block Elements</p>
+	 				<p>It's easier to group things together than to deal with data as bulk or to try to individualy modify each element in out code. The way we can do this is by making blocks that can create a virtual box and group its containing elements.
+	 						 				<a name="CSDH">
+
+	 				<br> Inline elements on the other hand , are within the bulk data and modify small sections of it.
+	 				<br>
+	 				Examples include <b>Block elements such as</b>
+	 				"div, form, p" and <b>Inline</b> such as "b, br, img, em, strong and span."
+	 				<br><br>
+	 				</p>
+
+<!--1_2________________________-->
+	 	<h2>2:Creating a Structured Document in HTML</h2>
+
+<!--1_2______A--><p><b>*Developer Tools and Text Editors</b></p>
+	 				<p>We have three options of programs to use for our HTML projects,<ul>
+	 				<li>the first being <a href="http://scratchpad.io">ScratchPad</a> which will be the fastest response but most limited functionality.</li>
+	 				<li>The second will be <a href="codepen.io">CodePen</a>This adds more functoinality and a seperate window for CSS easy sharing but not the most functionality.</li>
+	 				<li>The third being Sublime which can be downloaded and I am currently using Sublime 2. However, they might start charging money in the future as they do not give you a license to use it when you download. </li>
+	 		</ul></p> 
+	 		<a name="TLS">
+<!--1_2______B--><p><b>*Tree-Like Structure of HTML and indenting</b></p>
+	 				<p>As you can see indenting can show you which box belongs to what and as you go deeper into the document the more indenting you will see. Make sure to indent in a consistnent style so that you can find it easier to find things withing your own code.</p>
+	 			
+<!--1_3___________________________________-->
+	<h2>3:Adding CSS and Style to HTML</h2>
+<!--1_3______A--><p><b>*</b></p>
+<!--1_4__________________________________-->
+	<h2>4:Intro To Programming</h2>
+<!--1-4___________________________________-->
+<!--1_4______A--><p><b>*Key Points</b></p>
+					<p><ul>
+						<a name="PP">
+						<li>computer 
+						<li>program
+						<li>precise sequence of steps
+						<li>computation
+						<li>high-level language
+						<li>input
+						<li>interpreter
+					</ul>
+					</p>
+<!--2________________________________________-->
+
+					<div class="python">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" alt="Python" style="width: 50px; height=50px;">
+	<h3>Python</h3></div>
+<!--2_1______________________________________-->
+		<h4>1:Python Strings</h4></p>
+<!--2_1______A--><p><b>*Using Strings</b></p>				
+					<p>-Python Strings can be assigned to any typed variable to define it and it can either be surrounded with " or ' on both sides<br>
+
+						 i.e <b>'</b>String<b>'</b> or <b>"</b>String<b>"</b> or <b>"</b>String'<b>"</b><br><br>
+					-You can also do things like multiply strings with numbers.<br>
+					 i.e name = "hello"*2
+					<br> print name
+					<br> result: hellohello
+					</p>	
+
+<!--2_1______B--><p><b>*Indexing Strings</b></p>
+					<p>-If we have a string we can use square brackets [] to index any character in the string by selecting it's position value: 
+						i.e name= "Oday"
+						<br>print name[0] <b>returns</b> O
+						<br>print name[-1] <b>returns</b> y
+						<br>print name[3] <b>returns</b> y
+					</p>
+					<p>If we want to take a subsequence of characters we will have to use this operation print string[number:number2-1] excludes the second number:
+					<br> 
+					print word[2:4] <b>returns</b> or
+					<br>
+					print word[2:] <b>returns</b> ord
+					<br>
+					print word[:4] <b>returns</b> wor
+					<br>
+					print word[:]   <b>returns</b> nothin
+					s=s[:]=s[0:]=s[:3]+s[3:]
+					</p>
+						Question: to print 
+					<p><b>*Finding Strings: Methods</b></p>
+					<p>
+						This works by using the following function: <br>
+						<b>< string >.find(< string >) </b>and this is showin in the picture below:
+					</p>
+					<div class="container">
+					<img src="/Users/odaybrahem/Desktop/Screen Shot 2015-12-19 at 8.51.58 AM.png" style="width:100%; height:100%">
+					</div>
+					
+
+
+</div>
+</body>
+</html>
+
+
+
+
+</pre>

@@ -1,0 +1,175 @@
+body{
+	font-family: Helvetica;
+
+}
+.content
+{
+margin-top: 28px;
+	background-color: rgba(240,230,140,0.5);
+	margin-left: 13%;
+	margin-right: 13%;
+	border-radius: 20px;
+	border-color:rgb(240,230,140);
+	border-width: 10px;
+	border-style: groove;
+	text-align: left;
+	padding: 12px;
+}
+.content p
+{
+ margin-left: 10px;
+ }
+.content a
+{
+	margin-left: 10px;
+	text-decoration:none;
+
+
+}
+	.headerContainer
+	{
+	width: 80%;
+	position: fixed;
+	top:  0px;
+    margin-left:10%;
+    margin-right: 10%;
+    background-color: rgba(240,230,130,0.9);
+    border-style: solid;
+}
+		.toc-wrapped
+		{
+			top: 300px;
+		}
+
+
+		.toc-wrapped ul
+		{
+			list-style:none;
+			position:relative;
+			float:left;
+			margin:0;
+			padding:0
+		}
+
+		.toc-wrapped ul a
+		{
+			display:block;
+			color:#333;
+			text-decoration:none;
+			font-weight:700;
+			font-size:12px;
+			line-height:32px;
+			padding:0 15px;
+			font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+		}
+
+		.toc-wrapped ul li
+		{
+			position:relative;
+			float:left;
+			margin:0;
+			padding:0
+		}
+
+		.toc-wrapped ul li.current-menu-item
+		{
+			background:#ddd
+		}
+
+		.toc-wrapped ul li:hover
+		{
+			background:#f6f6f6
+		}
+
+		.toc-wrapped ul ul
+		{
+			display:none;
+			position:absolute;
+			top:100%;
+			left:0;
+			background:#fff;
+			padding:0
+		}
+
+		.toc-wrapped ul ul li
+		{
+			float:none;
+			width:200px
+		}
+
+		.toc-wrapped ul ul a
+		{
+			line-height:120%;
+			padding:10px 15px
+		}
+
+		.toc-wrapped ul ul ul
+		{
+			top:0;
+			left:100%
+		}
+
+		.toc-wrapped ul li:hover > ul
+		{
+			display:block
+		}
+
+
+.header {
+    height:60px;
+    background:white;
+    margin:0px auto;
+}
+.title{
+	margin-top: 0px;
+	padding: 12px;
+	position: relative;
+	color: rgb(123,100,100);
+	background-color: rgba(240,230,140,0.4);
+	text-align: center;
+	font-size: 140%%;
+
+}
+h2{
+	color: rgb(240,230,140);
+	background-color: rgba(0,20,80,0.9);
+	padding: 12px;
+	border-radius: 40px;
+		font-size: 22px;
+
+}
+h4{
+	color: rgb(240,230,140);
+	background-color: rgb(0,20,80);
+	padding: 12px;
+	border-radius: 40px;
+	font-size: 22px;
+}
+.python{
+	background-position: bottom;
+	text-align: center;
+	font-size: 30px;
+	color: rgb(255,255,102);
+	background-color: rgb(0,0,100);
+	margin-right: 222px;
+	margin-left: 222px;
+
+	border-radius: 10px;
+	padding-top: 15px;
+	padding-bottom: 1px;
+
+
+}
+.logo
+{
+	border-top: 10px;
+	padding-top: 2px;
+	position: fixed;
+	background-position: bottom;
+}
+.container {
+    height: 600px;
+    
+    overflow: hidden;
+    display: inline-block;
+}
