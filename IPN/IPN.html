@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <!-- I added the <meta> tag here to prevent and error in the https://www.amazon.ca/gp/css/homepage.html/ref=nav_youraccount_btnautomatic validation check that kept stating "Error: The character encoding was not declared. Proceeding using windows-1252." Therefore I delcared the encoding to be utf-8 -->
-    <link rel="stylesheet" href="./IPN_files/Notes.css">
-    <title>Intro to Programming NanoDegree Notes</title>
-    <link rel="shortcut icon" href="./IPN_files/icon4.png">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!-- I added the <meta> tag here to prevent and error in the https://www.amazon.ca/gp/css/homepage.html/ref=nav_youraccount_btnautomatic validation check that kept stating "Error: The character encoding was not declared. Proceeding using windows-1252." Therefore I delcared the encoding to be utf-8 -->
+  <link rel="stylesheet" href="./IPN_files/Notes.css">
+  <title>Intro to Programming NanoDegree Notes</title>
+  <link rel="shortcut icon" href="./IPN_files/icon4.png">
 </head>
 
 <body>
-    <a id="top">
-        <br>
-        <br>
-        <br>
-        <br>
-    </a>
-    <div class="topMenu">
-        <div class="headerContainer">
-            <div class="header">
-                <div class="titlex">
-                    <a href="#top">
+  <a id="top">
+    <br>
+    <br>
+    <br>
+    <br>
+  </a>
+  <div class="topMenu">
+    <div class="headerContainer">
+      <div class="header">
+        <div class="titlex">
+          <a href="#top">
                         Important Concepts in Programming
                     </a>
-                </div>
-            </div>
-            <nav class="toc-wrapped">
-                <ul>
-                    <li><a href="#">HTML & CSS</a>
-                        <ul>
-                            <li><a href="#top">Basics of Web and HTML</a>
-                            </li>
-                            <li><a href="#CSDH">Structured Documents DOM</a>
-                            </li>
-                            <li><a href="#TLS">HTML Styling and CSS</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!-- 
+        </div>
+      </div>
+      <nav class="toc-wrapped">
+        <ul>
+          <li><a href="#">HTML & CSS</a>
+            <ul>
+              <li><a href="#top">Basics of Web and HTML</a>
+              </li>
+              <li><a href="#CSDH">Structured Documents DOM</a>
+              </li>
+              <li><a href="#TLS">HTML Styling and CSS</a>
+              </li>
+            </ul>
+          </li>
+          <!-- 
                     The below section was ommitted from the total since I have yet to update the formatting of that python page
                     <li><a href="./PythonNotes.html">Learning Python</a>
                         <ul>
@@ -51,133 +51,136 @@
                         </ul>
                     </li>
                     -->
-                </ul>
-            </nav>
-        </div>
+        </ul>
+      </nav>
     </div>
-    <div class="content">
-        <div class="sec">1:The Basics of Web and HTML</div>
-        <!--1_1______A-->
-        <div class="contentx">
-            <p><b>How the Web Works</b>
-            </p>
-            <div class="textstyle">
+  </div>
+  <div class="content">
+    <div class="sec">1:The Basics of Web and HTML</div>
+    <!--1_1______A-->
+    <div class="contentx">
+      <p><b>How the Web Works</b>
+      </p>
+      <div class="textstyle">
 
-                <p>
-                    The Web is a system of communication between your computer and server computers that enables your computer to access html documents that are interconnected through hyperlinks, which form the web.
-                    <br>In order to access these html documents your computer's web browser will need to send in a request to the servers(HTTP request.)
-                    <br> The servers send your computer back an HTML document that your browser can then interpret into what you see as a webpage on your display.
-                    <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">This video </a> hosted by Udacity does a good job of explaining more...
-                </p>
-            </div>
-            <!--1_1______B-->
-            <p><b>HTML Documents</b>
-            </p>
-            <div class="textstyle">
-                <p>
-                    <em>HyperText Markup Language (HTTP)</em> Consist of:
-                </p>
-                <ul>
-                    <li>Text Content, <em>What you see?</em>
-                    </li>
-                    <li>Markup, <em>What it looks like</em>
-                    </li>
-                    <li>References to imgs, vds... <em>hyperlinks</em>
-                    </li>
-                    <li>Other documents</li>
-                </ul>
-                <br>
-                <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340"> This video</a> explains things more...
-                <p></p>
-            </div>
-            <!--1_1______C-->
-            <p><b>Tags and Elements</b>
-            </p>
-            <div class="textstyle">
-                <p>HTML contains elements and tags. Tags around elements or before them defines what type of element and what features our element has.</p>
-            </div>
-            <!--1_1______D-->
-            <p><b>Computers don't think they just do.</b>
-            </p>
-            <div class="textstyle">
-                <p>Computers will take instructions given by the user literally and will obey only the instructions it is programmed to inrepret. Therefore, make sure syntax is correct as it protects your project from the computer's limitations.</p>
-            </div>
-            <!--1_1______E-->
-            <p><b>Inline vs Block Elements</b>
-            </p>
-            <div class="textstyle">
-                <p>It's easier to group things together than to deal with data as bulk or to try to individualy modify each element in out code. The way we can do this is by making blocks that can create a virtual box and group its containing elements.
-                    <a id="CSDH"></a>
+        <p>
+          The Web is a system of communication between your computer and server computers that enables your computer to access html documents that are interconnected through hyperlinks, which form the web.
+          <br>In order to access these html documents your computer's web browser will need to send in a request to the servers(HTTP request.)
+          <br> The servers send your computer back an HTML document that your browser can then interpret into what you see as a webpage on your display.
+          <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">This video </a> hosted by Udacity does a good job of explaining more...
+        </p>
+      </div>
+      <!--1_1______B-->
+      <p><b>HTML Documents</b>
+      </p>
+      <div class="textstyle">
+        <p>
+          <em>HyperText Markup Language (HTTP)</em> Consist of:
+        </p>
+        <ul>
+          <li>Text Content, <em>What you see?</em>
+          </li>
+          <li>Markup, <em>What it looks like</em>
+          </li>
+          <li>References to imgs, vds... <em>hyperlinks</em>
+          </li>
+          <li>Other documents</li>
+        </ul>
+        <br>
+        <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340"> This video</a> explains things more...
+        <p></p>
+      </div>
+      <!--1_1______C-->
+      <p><b>Tags and Elements</b>
+      </p>
+      <div class="textstyle">
+        <p>HTML contains elements and tags. Tags around elements or before them defines what type of element and what features our element has.</p>
+      </div>
+      <!--1_1______D-->
+      <p><b>Computers don't think they just do.</b>
+      </p>
+      <div class="textstyle">
+        <p>Computers will take instructions given by the user literally and will obey only the instructions it is programmed to inrepret. Therefore, make sure syntax is correct as it protects your project from the computer's limitations.</p>
+      </div>
+      <!--1_1______E-->
+      <p><b>Inline vs Block Elements</b>
+      </p>
+      <div class="textstyle">
+        <p>It's easier to group things together than to deal with data as bulk or to try to individualy modify each element in out code. The way we can do this is by making blocks that can create a virtual box and group its containing elements.
+          <a id="CSDH"></a>
 
-                    <br> Inline elements on the other hand , are within the bulk data and modify small sections of it.
-                    <br> Examples include <b>Block elements such as</b> "div, form, p" and <b>Inline</b> such as "b, br, img, em, strong and span."
-                    <br>
-                    <br>
-                </p>
-            </div>
-        </div>
-
-        <!--1_2________________________-->
-        <div class="sec">2:Creating a Structured Document in HTML</div>
-        <div class="contentx">
-            <!--1_2______A-->
-            <p><b>Developer Tools and Text Editors</b>
-            </p>
-            <div class="textstyle">
-                <p>We have three options of special text editor programs to use for our HTML projects,</p>
-                <ul>
-                    <li>
-                        The first being<a href="http://scratchpad.io/">ScratchPad</a> which will be the fastest response but most limited functionality.</li>
-                    <li>The second will be <a href="http://codepen.io">CodePen</a>This adds more functoinality and a seperate window for CSS easy sharing but not the most functionality.</li>
-                    <li>The third being <a href="http://www.sublimetext.com/">Sublime</a> which can be downloaded and I am currently using Sublime 2. However, they might start charging money in the future as they do not give you a license to use it when you download. </li>
-                </ul>
-                It is up to the end programmer to select which tool to use as each one has benefits and downsides.
-                <a id="TLS"></a>
-            </div>
-            <p><b>Tree-Like Structure of HTML and indenting</b>
-            </p>
-            <div class="textstyle">
-                <p>Indenting is really important in HTML as indenting can show you which box belongs to what and as you go deeper into the document the more indenting you will see. Make sure to indent in a consistnent style so that you can find it easier to find things within your own code.
-                    <br> There are websites that can indent for your code and help you reach beautiful code such as <a href="http://www.cleancss.com/html-beautify/">CleanCSS</a> and <a href="http://html.fwpolice.com/css/">FWpolice</a>.</p>
-                <p>As a result of the indenting we end up with this structure of boxes nested into other boxes and these boxes within boxes and the overall structure will help us form the DOM.</p>
-            </div>
-            <p><b>Document object model (DOM):</b>
-            </p>
-            <div class="textstyle">
-                <p>
-                    Cross platform and language independent convention for presenting and attracting objects in HTML and other markup languages. The nodes for every document are organized in a tree-like structure called the DOM tree. Objects in the DOM tree may be addressed and manipulated by using methods on the objects. The public interface of a DOM is specified in its application programming interface (API).
-                    <br> More detailed information on the DOM is available<a href="https://www.w3.org/TR/DOM-Level-2-Core/introduction.html">here</a>.
-                </p>
-                <p>
-                    In order to accomplish this DOM structure we separate parts of the document to boxes with Use of the div or span tag and other tags.
-                </p>
-            </div>
-        </div>
-        <!--1_3___________________________________-->
-        <div class="sec">3:Adding CSS and Style to HTML</div>
-        <!--1_3______A-->
-        <div class="contentx">
-            <p><b>Abstraction is Awesome!:</b>
-            </p>
-            <div class="textstyle">
-                <p>Indeed abstraction is awesome as it helped me avoid the repetition of curtain styling elements in my document by assigning a unified class name for the similar sections and class names for their contents. On the other hand now if I don't like a curtain style in my document it will only take me little editing to change the style.</p>
-            </div>
-            <p><b>CSS (cascading style sheets)</b>
-            </p>
-            <div class="textstyle">
-                <p>
-                    CSS stands for Cascading Style Sheets and they give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class. The different styling functions of CSS can be found listed <a href="http://www.w3schools.com/css/">here</a>.
-                </p>
-                <p>These various classes allow the user to avoid repition as they can store all the styling data for similar objects and all that is needed is one set of data for the similar elements. CSS is a seperate file that can be refrenced to in the <b>head</b> section of the html document. For more information on CSS documents you will find a good explanantion <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">here</a> on the Mozilla Development Network.</p>
-            </div>
-            <p><b>Complete Styled HTML Document</b>
-            </p>
-            <div class="textstyle">
-                <p>To have an HTML document that has style we will need to either integrate the style into the html document itself or we can do the styling by using two files; The HTML document and a CSS document.
-                    <br>When we have the CSS in a seperate document it can be linked to the html document by using the link tag and specifying that the rel="stylesheet".</p>
-            </div>
-            <!--1_4__________________________________-->
-            <!--2________________________________________-->
-        </div>
+          <br> Inline elements on the other hand , are within the bulk data and modify small sections of it.
+          <br> Examples include <b>Block elements such as</b> "div, form, p" and <b>Inline</b> such as "b, br, img, em, strong and span."
+          <br>
+          <br>
+        </p>
+      </div>
     </div>
+
+    <!--1_2________________________-->
+    <div class="sec">2:Creating a Structured Document in HTML</div>
+    <div class="contentx">
+      <!--1_2______A-->
+      <p><b>Developer Tools and Text Editors</b>
+      </p>
+      <div class="textstyle">
+        <p>We have three options of special text editor programs to use for our HTML projects,</p>
+        <ul>
+          <li>
+            The first being<a href="http://scratchpad.io/">ScratchPad</a> which will be the fastest response but most limited functionality.</li>
+          <li>The second will be <a href="http://codepen.io">CodePen</a>This adds more functoinality and a seperate window for CSS easy sharing but not the most functionality.</li>
+          <li>The third being <a href="http://www.sublimetext.com/">Sublime</a> which can be downloaded and I am currently using Sublime 2. However, they might start charging money in the future as they do not give you a license to use it when you download. </li>
+        </ul>
+        It is up to the end programmer to select which tool to use as each one has benefits and downsides.
+        <a id="TLS"></a>
+      </div>
+      <p><b>Tree-Like Structure of HTML and indenting</b>
+      </p>
+      <div class="textstyle">
+        <p>Indenting is really important in HTML as indenting can show you which box belongs to what and as you go deeper into the document the more indenting you will see. Make sure to indent in a consistnent style so that you can find it easier to find things within your own code.
+          <br> There are websites that can indent for your code and help you reach beautiful code such as <a href="http://www.cleancss.com/html-beautify/">CleanCSS</a> and <a href="http://html.fwpolice.com/css/">FWpolice</a>.</p>
+        <p>As a result of the indenting we end up with this structure of boxes nested into other boxes and these boxes within boxes and the overall structure will help us form the DOM.
+        </p>
+      </div>
+      <p><b>Document object model (DOM):</b>
+      </p>
+      <div class="textstyle">
+        <p>
+          Cross platform and language independent convention for presenting and attracting objects in HTML and other markup languages. The nodes for every document are organized in a tree-like structure called the DOM tree. Objects in the DOM tree may be addressed and manipulated by using methods on the objects. The public interface of a DOM is specified in its application programming interface (API).
+          <br> More detailed information on the DOM is available<a href="https://www.w3.org/TR/DOM-Level-2-Core/introduction.html">here</a>.
+        </p>
+        <p>
+          In order to accomplish this DOM structure we separate parts of the document to boxes with Use of the div or span tag and other tags.
+        </p>
+      </div>
+    </div>
+    <!--1_3___________________________________-->
+    <div class="sec">3:Adding CSS and Style to HTML</div>
+    <!--1_3______A-->
+    <div class="contentx">
+      <p><b>Abstraction is Awesome!:</b>
+      </p>
+      <div class="textstyle">
+        <p>Indeed abstraction is awesome as it helped me avoid the repetition of curtain styling elements in my document by assigning a unified class name for the similar sections and class names for their contents. On the other hand now if I don't like a curtain style in my document it will only take me little editing to change the style.</p>
+      </div>
+      <p><b>CSS (cascading style sheets)</b>
+      </p>
+      <div class="textstyle">
+        <p>
+          CSS stands for Cascading Style Sheets and they give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class. The different styling functions of CSS can be found listed
+          <a href="http://www.w3schools.com/css/">here</a>.
+        </p>
+        <p>These various classes allow the user to avoid repition as they can store all the styling data for similar objects and all that is needed is one set of data for the similar elements. CSS is a seperate file that can be refrenced to in the
+          <b>head</b> section of the html document. For more information on CSS documents you will find a good explanantion <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">here</a> on the Mozilla Development Network.</p>
+      </div>
+      <p><b>Complete Styled HTML Document</b>
+      </p>
+      <div class="textstyle">
+        <p>To have an HTML document that has style we will need to either integrate the style into the html document itself or we can do the styling by using two files; The HTML document and a CSS document.
+          <br>When we have the CSS in a seperate document it can be linked to the html document by using the link tag and specifying that the rel="stylesheet".</p>
+      </div>
+      <!--1_4__________________________________-->
+      <!--2________________________________________-->
+    </div>
+  </div>
 </body>
