@@ -56,32 +56,34 @@ body {
     border-width: 8px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    height: 76px;
 }
 
 .toc-wrapped {
     top: 300px;
+    border-top-style: solid;
+    border-color: rgba(0,0,0,0.1);
 }
-
 .toc-wrapped ul {
     list-style: none;
     position: relative;
     float: left;
     margin: 0px;
-    padding-left: 10px;
+    padding-left: 8px;
 }
 
 .toc-wrapped ul a {
     display: block;
-    color: #123;
+    color: #222222;
     text-decoration: none;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
     padding-left: 10px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     padding-right: 10px;
-    font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Serif;
 }
 
 .toc-wrapped ul li {
@@ -92,11 +94,14 @@ body {
 }
 
 .toc-wrapped ul li.current-menu-item {
-    background: #ddd;
+    background: rgb(240,230,140);
 }
 
 .toc-wrapped ul li:hover {
-    background: #f6f6f6;
+    background: rgb(240,230,140);
+    border-radius: 12px;
+    margin-bottom: 0px;
+
 }
 
 .toc-wrapped ul ul {
@@ -104,18 +109,21 @@ body {
     position: absolute;
     top: 100%;
     left: 0px;
-    background: #fff;
+    background-color: rgba(190,187,167,0.9);
     padding: 0px;
+    border-radius: 12px;
+    border-color: rgb(240,230,140);
+
 }
 
 .toc-wrapped ul ul li {
     float: none;
-    width: 200px;
+    width: 290px;
 }
 
 .toc-wrapped ul ul a {
     line-height: 120%;
-    padding: 15px;
+    padding: 10px;
 }
 
 .toc-wrapped ul ul ul {
@@ -128,7 +136,7 @@ body {
 }
 
 .header {
-    height: 40px;
+    height: 46px;
 }
 
 .titlex {
@@ -141,9 +149,10 @@ body {
 }
 
 .titlex a {
-    color: rgb(240,230,140);
-    font-size: 130%;
+    color: #D0D0CE;
+    font-size: 160%;
     text-decoration: none;
+    font-family: Serif;
 }
 
 .sec {
@@ -153,19 +162,14 @@ body {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-color: yellow;
-    font-size: 22px;
+    font-size: 21px;
     text-align: center;
     bottom: 0px;
+    font-family: serif;
 }
 
 .container {
     height: 600px;
     overflow: hidden;
     display: inline-block;
-}
-
-.imager {
-    max-width: 80%;
-    border-style: groove;
-    border-color: rgb(240,230,140);
 }
